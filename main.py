@@ -15,7 +15,7 @@ class PhoneBook(object):
         self.top_frame = Frame(self.window, height=150, bg='#f5f5f5')
         self.top_frame.pack(fill=X)
 
-        self.top_image = PhotoImage(file='icons/phonebook.png')
+        self.top_image = PhotoImage(file='phonebook.png')
         self.top_image_label = Label(self.top_frame, image=self.top_image)
         self.top_image_label.place(x=180, y=40)
 
